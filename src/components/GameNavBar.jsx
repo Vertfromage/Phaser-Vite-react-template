@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import 'tailwindcss/tailwind.css';
-
 // Icons
 import settingsIcon from '../assets/gear.svg';
 import infoIcon from '../assets/info.svg';
-import backIcon from '../assets/back.svg';
+
 
 const renderButtons = () => (
   <>
@@ -44,7 +43,7 @@ const NavBar = ({ info, setInfo, settings, setSettings }) => {
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="text-white text-lg font-bold">
-          LittleJS Game Integration
+          Phaser Game Integration
         </div>
 
         {/* Mobile Menu Button */}
